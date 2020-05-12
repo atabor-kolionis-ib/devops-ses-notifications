@@ -10,6 +10,13 @@ https://console.aws.amazon.com/lambda/home?region=us-east-1#/functions/sesnotifi
 The DynamoDB table
 https://console.aws.amazon.com/dynamodb/home?region=us-east-1#tables:selected=SESNotifications;tab=overview
 
+
+# Automatic suppression
+
+Enable the automatic account level supression reasons to go along with the reporting done by the lambda
+
+`aws --region us-east-1 --profile bc-prod sesv2 put-account-suppression-attributes --suppressed-reasons BOUNCE COMPLAINT`
+
 # Testing
 
 To manually test email out through the server
