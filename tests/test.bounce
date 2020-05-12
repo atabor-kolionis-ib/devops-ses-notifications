@@ -1,0 +1,15 @@
+EHLO infiniteblue.com
+AUTH LOGIN
+$SES_USER_ENC
+$SES_PW_ENC
+MAIL FROM: scott.anderson@infiniteblue.com
+RCPT TO: bounce@simulator.amazonses.com
+DATA
+From: Scott Anderson <scott.anderson@infiniteblue.com>
+To: bounce@simulator.amazonses.com
+Subject: Testing SES Feedback
+
+body
+.
+QUIT
+

@@ -1,0 +1,15 @@
+EHLO infiniteblue.com
+AUTH LOGIN
+$SES_USER_ENC
+$SES_PW_ENC
+MAIL FROM: scott.anderson@infiniteblue.com
+RCPT TO: scott.anderson@infiniteblue.com
+DATA
+From: Scott Anderson <scott.anderson@infiniteblue.com>
+To: scott.anderson@infiniteblue.com
+Subject: Testing SES Feedback
+
+body
+.
+QUIT
+
