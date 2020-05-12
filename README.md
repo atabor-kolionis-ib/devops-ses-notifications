@@ -17,6 +17,10 @@ Enable the automatic account level supression reasons to go along with the repor
 
 `aws --region us-east-1 --profile bc-prod sesv2 put-account-suppression-attributes --suppressed-reasons BOUNCE COMPLAINT`
 
+Instructions for inspecting and managing the account level list:
+
+https://docs.aws.amazon.com/ses/latest/DeveloperGuide/sending-email-suppression-list.html
+
 # Testing
 
 To manually test email out through the server
