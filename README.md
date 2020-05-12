@@ -2,7 +2,13 @@
 
 A lambda that processes SES messages into expiring DynamoDB items 
 
-This lambda is installed in bcic prod and hooked up to the SES notification streams
+This lambda is installed in bcic prod account and hooked up to the SES notification streams
+
+The Lambda:
+https://console.aws.amazon.com/lambda/home?region=us-east-1#/functions/sesnotificationscode?tab=configuration
+
+The DynamoDB table
+https://console.aws.amazon.com/dynamodb/home?region=us-east-1#tables:selected=SESNotifications;tab=overview
 
 # Testing
 
